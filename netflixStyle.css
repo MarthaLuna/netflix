@@ -1,0 +1,108 @@
+body
+{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+
+.titulo
+{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 50px;;
+}
+
+.perfiles
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nombres
+{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 20px;
+    gap:170px;
+}
+
+.boton
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.boton button
+{
+    border-color: gray;
+    color: gray;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    width: 300px;
+
+}
+
+.perfiles * img:hover
+{
+   
+   border-image:1px;
+   border-style: solid;
+   border-color: white;
+  color: white;
+  cursor: pointer;
+  
+}
+
+[id^="test"]:hover
+{
+  
+   color: white;
+   cursor: pointer;
+}
+
+
+
+.perfiles * img
+{
+   
+   border-image:1px;
+   border-style: solid;
+   border-color: black;
+  
+}
+
+.boton button:hover
+{
+
+    border-color: white;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+p
+{
+    color: gray;
+    text-align: center;
+}
+
+
+
+div img
+{
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+
+}
+
+
