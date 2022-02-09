@@ -68,6 +68,19 @@ body
    cursor: pointer;
 }
 
+.user:hover img
+{
+    
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.user:hover p
+{
+    color: white;
+    cursor: pointer;
+}
+
 
 
 .perfiles * img
